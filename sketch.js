@@ -25,16 +25,16 @@ function setup() {
 	helicopterSprite.scale=0.6
 
 	groundSprite=createSprite(width/2, height-35, width,10);
-	groundSprite.shapeColor=color(255)
+	groundSprite.shapeColor="white";
 
 	boxBottomEdge=createSprite(400,665,200,20);
-	boxBottomEdge.shapeColor=color(red);
+	boxBottomEdge.shapeColor="red";
 
 	boxRightEdge=createSprite(390,665,100,20);
-	boxRightEdge.shapeColor=color(red);
+	boxRightEdge.shapeColor="red";
 
 	boxLeftEdge=createSprite(410,665,100,20);
-	boxLeftEdge.shapeColor=color(red);
+	boxLeftEdge.shapeColor="red";
 
 
 	engine = Engine.create();
